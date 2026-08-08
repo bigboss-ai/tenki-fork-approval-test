@@ -3,4 +3,14 @@ name: Fork PR checks second
 on:
   pull_request:
     paths:
-      - 'src/**'\n\npermissions:\n  contents: read\n\njobs:\n  validate-second:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Confirm second fork pull request workflow\n        run: echo "Second fork pull request workflow started"\n
+      - 'src/**'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-second:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm second fork pull request workflow
+        run: echo "Second fork pull request workflow started"
