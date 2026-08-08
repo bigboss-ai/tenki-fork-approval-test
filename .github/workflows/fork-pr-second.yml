@@ -1,0 +1,14 @@
+name: Fork PR checks second
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-second:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm second fork pull request workflow
+        run: echo "Second fork pull request workflow started"
