@@ -1,0 +1,14 @@
+name: Pull request target observation
+
+on:
+  pull_request_target:
+
+permissions:
+  contents: read
+
+jobs:
+  observe-target:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm pull request target workflow
+        run: echo "Pull request target workflow started"
