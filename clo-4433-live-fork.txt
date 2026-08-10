@@ -1,2 +1,3 @@
 CLO-4433 live external fork approval test.
-Second push must require fresh maintainer approval.
+Second push required fresh maintainer approval.
+Third push verifies review-on-push through full completion.
