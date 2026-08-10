@@ -4,3 +4,4 @@ Third push verifies review-on-push through full completion.
 Stale release source SHA.
 Current SHA must remain held.
 Actions-disabled mention fallback SHA.
+Non-maintainer mention must not release.
