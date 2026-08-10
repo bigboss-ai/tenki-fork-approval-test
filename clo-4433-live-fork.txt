@@ -2,3 +2,4 @@ CLO-4433 live external fork approval test.
 Second push required fresh maintainer approval.
 Third push verifies review-on-push through full completion.
 Stale release source SHA.
+Current SHA must remain held.
